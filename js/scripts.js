@@ -13,6 +13,14 @@ var chart = c3.generate({
             '5-year Retention Rate': '#006d2c',
         },
     },
+    legend: {
+        show: true,
+        position: 'inset',
+        inset: {
+            anchor: 'top-right',
+            step: 2
+        }
+    },
     axis: {
         x: {
             type: 'category'
